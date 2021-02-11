@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BottomModal /> renders correctly 1`] = `
+<Modal
+  animationType="slide"
+  hardwareAccelerated={false}
+  transparent={true}
+  visible={true}
+>
+  <View
+    style={
+      Array [
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "backgroundColor": "#000",
+          },
+        ],
+        Object {
+          "backgroundColor": "transparent",
+        },
+      ]
+    }
+  >
+    <ViewManagerAdapter_ExpoBlurView
+      proxiedProperties={
+        Object {
+          "intensity": 100,
+          "tint": "dark",
+        }
+      }
+      style={
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+    />
+  </View>
+</Modal>
+`;
