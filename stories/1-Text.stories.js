@@ -1,7 +1,7 @@
 import React from "react";
 import { action } from "@storybook/addon-actions";
 import { storiesOf } from "@storybook/react-native";
-import Text from '../components/index'
+import Text from '../components/Text/Text'
 
 export default {
   title: "Text",
