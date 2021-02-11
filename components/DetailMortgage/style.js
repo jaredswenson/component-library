@@ -1,6 +1,5 @@
 import styled from 'styled-components/native';
 import { Dimensions, Animated } from 'react-native';
-import { MaterialIcons } from "@expo/vector-icons";
 
 import theme from '../../themes/default';
 

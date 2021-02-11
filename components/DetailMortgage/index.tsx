@@ -27,13 +27,11 @@ import {
 interface DetailMortgageProps {
   price?: number;
   tax?: number;
-  noPrice?: boolean;
 }
 
 const DetailMortgage: React.FC<DetailMortgageProps> = ({
   price = 350000,
-  tax = 2000,
-  noPrice = false,
+  tax = 2000
 }) => {
   const [years, setYears] = useState<number>(30);
   const [down, setDown] = useState<number>(20);
@@ -162,7 +160,7 @@ const DetailMortgage: React.FC<DetailMortgageProps> = ({
       </Container>
       <Container>
         <PriceLabel flex={0.5}>Loan Term</PriceLabel>
-        <YearsContainer flex={0.5} onPress={() => setUpdateYears(true)}>
+        <YearsContainer flex={0.5} onPress={() => setUpdateYears(!updateYears)}>
           <View
             style={{ flexDirection: "row", justifyContent: "space-between" }}
           >
@@ -241,42 +239,47 @@ const DetailMortgage: React.FC<DetailMortgageProps> = ({
         showValue={false}
         action={updateRate}
       />
-      {/* <BottomModal modal={updateYears} blur={15}>
-        <ModalBody>
-          <ModalButton>
-            <TouchableOpacity
-              onPress={() => {
-                setUpdateYears(false), storeYears();
-              }}
-            >
-              <Text
-                style={{
-                  color: theme.homeColors.blue[800],
-                  fontSize: theme.fontSize.larger,
-                  fontFamily: theme.fonts[700],
+      {
+        updateYears && (
+          <BottomModal modal={updateYears} blur={15}>
+            <ModalBody>
+              <ModalButton>
+                <TouchableOpacity
+                  onPress={() => {
+                    setUpdateYears(false), storeYears();
+                  }}
+                >
+                  <Text
+                    style={{
+                      color: theme.homeColors.blue[800],
+                      fontSize: theme.fontSize.larger,
+                      fontFamily: theme.fonts[700],
+                    }}
+                  >
+                    Done
+                  </Text>
+                </TouchableOpacity>
+              </ModalButton>
+              <Picker
+                selectedValue={years}
+                itemStyle={{
+                  fontSize: theme.fontSize.medium,
+                  fontFamily: "Nunito_700Bold"
                 }}
+                onValueChange={async (itemValue, itemIndex) => setYears(itemValue)}
               >
-                Done
-              </Text>
-            </TouchableOpacity>
-          </ModalButton>
-          <Picker
-            selectedValue={years}
-            itemStyle={{
-              fontSize: theme.fontSize.medium,
-              fontFamily: "Nunito_700Bold"
-            }}
-            onValueChange={async (itemValue, itemIndex) => setYears(itemValue)}
-          >
-            <Picker.Item label="10 Years" value={10} key={0} />
-            <Picker.Item label="15 Years" value={15} key={0} />
-            <Picker.Item label="20 Years" value={20} key={0} />
-            <Picker.Item label="25 Years" value={25} key={0} />
-            <Picker.Item label="30 Years" value={30} key={0} />
-          </Picker>
-          <Entypo name="chevron-thin-up" size={16} color="black" />
-        </ModalBody>
-      </BottomModal> */}
+                <Picker.Item label="10 Years" value={10} key={0} />
+                <Picker.Item label="15 Years" value={15} key={0} />
+                <Picker.Item label="20 Years" value={20} key={0} />
+                <Picker.Item label="25 Years" value={25} key={0} />
+                <Picker.Item label="30 Years" value={30} key={0} />
+              </Picker>
+              <Entypo name="chevron-thin-up" size={16} color="black" />
+            </ModalBody>
+          </BottomModal>
+
+        )
+      }
     </KeyboardAwareScrollView>
   );
 };

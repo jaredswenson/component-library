@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderBottomColor": "rgba(79, 70, 229, 1)",
+      "borderBottomLeftRadius": 4,
+      "borderBottomRightRadius": 4,
+      "borderBottomWidth": 1,
+      "borderLeftColor": "rgba(79, 70, 229, 1)",
+      "borderLeftWidth": 1,
+      "borderRightColor": "rgba(79, 70, 229, 1)",
+      "borderRightWidth": 1,
+      "borderTopColor": "rgba(79, 70, 229, 1)",
+      "borderTopLeftRadius": 4,
+      "borderTopRightRadius": 4,
+      "borderTopWidth": 1,
+      "height": 144,
+      "width": "33.333333%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "borderBottomColor": "rgba(79, 70, 229, 1)",
+        "borderBottomWidth": 1,
+        "borderLeftColor": "rgba(79, 70, 229, 1)",
+        "borderRightColor": "rgba(79, 70, 229, 1)",
+        "borderTopColor": "rgba(79, 70, 229, 1)",
+        "paddingBottom": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 8,
+      }
+    }
+  >
+    <Text>
+      Header
+    </Text>
+  </View>
+</View>
+`;

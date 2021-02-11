@@ -1,0 +1,676 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DetailMorgate /> renders correctly 1`] = `
+<RCTScrollView
+  automaticallyAdjustContentInsets={false}
+  contentInset={
+    Object {
+      "bottom": 0,
+    }
+  }
+  enableAutomaticScroll={true}
+  enableOnAndroid={false}
+  enableResetScrollToCoords={true}
+  extraHeight={75}
+  extraScrollHeight={0}
+  getScrollResponder={[Function]}
+  handleOnScroll={[Function]}
+  keyboardDismissMode="interactive"
+  keyboardOpeningTime={250}
+  keyboardShouldPersistTaps="handled"
+  keyboardSpace={0}
+  onScroll={[Function]}
+  resetKeyboardSpace={[Function]}
+  scrollEnabled={false}
+  scrollEventThrottle={1}
+  scrollForExtraHeightOnAndroid={[Function]}
+  scrollIntoView={[Function]}
+  scrollToEnd={[Function]}
+  scrollToFocusedInput={[Function]}
+  scrollToPosition={[Function]}
+  showsVerticalScrollIndicator={true}
+  update={[Function]}
+  viewIsInsideTabBar={false}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "marginTop": 30,
+        }
+      }
+    >
+      <View
+        pointerEvents="box-none"
+        style={
+          Object {
+            "height": 200,
+          }
+        }
+      >
+        <View
+          onLayout={[Function]}
+          pointerEvents="box-none"
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        />
+      </View>
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "left": 374.5,
+            "position": "absolute",
+            "top": 75,
+          }
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "fontFamily": "Nunito_700Bold",
+                "fontSize": 20,
+              },
+            ]
+          }
+        >
+          $1,503
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "color": "#4C4B63",
+                "fontSize": 18,
+              },
+            ]
+          }
+        >
+          Monthly
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontFamily": "Nunito_700Bold",
+              "fontSize": 18,
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        $1,337
+      </Text>
+      <Text
+        light={true}
+        style={
+          Array [
+            Object {
+              "color": "#4C4B63",
+              "fontFamily": "Nunito_600SemiBold",
+              "fontSize": 18,
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        Principal & Interset
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "marginTop": 10,
+          },
+        ]
+      }
+    >
+      <Text />
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#000",
+              "fontFamily": "Nunito_700Bold",
+              "fontSize": 18,
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        $167
+      </Text>
+      <Text
+        light={true}
+        style={
+          Array [
+            Object {
+              "color": "#4C4B63",
+              "fontFamily": "Nunito_600SemiBold",
+              "fontSize": 18,
+              "marginLeft": 5,
+            },
+          ]
+        }
+      >
+        Taxes
+      </Text>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <Text
+        flex={0.5}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 0.5,
+              "flexShrink": 1,
+              "fontFamily": "Nunito_700Bold",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Purchase Price
+      </Text>
+      <TextInput
+        allowFontScaling={true}
+        blurOnSubmit={true}
+        contextMenuHidden={true}
+        flex={0.5}
+        keyboardType="numeric"
+        onChangeText={[Function]}
+        rejectResponderTermination={true}
+        returnKeyType="done"
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "borderColor": "#C3C3C3",
+              "borderRadius": 5,
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+              "flexBasis": 0,
+              "flexGrow": 0.5,
+              "flexShrink": 1,
+              "fontFamily": "Nunito_400Regular",
+              "fontSize": 16,
+              "marginTop": 10,
+              "paddingBottom": 10,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
+              "textAlign": "left",
+              "width": 637.5,
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value="$350,000"
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <Text
+        flex={0.5}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 0.5,
+              "flexShrink": 1,
+              "fontFamily": "Nunito_700Bold",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Loan Term
+      </Text>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignSelf": "center",
+            "borderColor": "#C3C3C3",
+            "borderRadius": 5,
+            "borderStyle": "solid",
+            "borderWidth": 0.5,
+            "flexBasis": 0,
+            "flexGrow": 0.5,
+            "flexShrink": 1,
+            "opacity": 1,
+            "paddingBottom": 15,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 15,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "fontFamily": "Nunito_400Regular",
+                "fontSize": 16,
+              }
+            }
+          >
+            30
+             years
+          </Text>
+          <Text />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <Text
+        flex={0.53}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 0.53,
+              "flexShrink": 1,
+              "fontFamily": "Nunito_700Bold",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Down Payment
+      </Text>
+      <View
+        flex={0.47}
+        style={
+          Array [
+            Object {
+              "borderColor": "#C3C3C3",
+              "borderRadius": 5,
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 0.6,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          blurOnSubmit={true}
+          contextMenuHidden={true}
+          first={true}
+          flex={0.65}
+          keyboardType="numeric"
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          returnKeyType="done"
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "borderRightColor": "#C3C3C3",
+                "borderRightWidth": 0.5,
+                "flexBasis": 0,
+                "flexGrow": 0.65,
+                "flexShrink": 1,
+                "fontFamily": "Nunito_400Regular",
+                "fontSize": 16,
+                "paddingBottom": 10,
+                "paddingLeft": 5,
+                "paddingRight": 1,
+                "paddingTop": 10,
+                "textAlign": "left",
+                "width": 637.5,
+              },
+            ]
+          }
+          underlineColorAndroid="transparent"
+          value="$70,000"
+        />
+        <TextInput
+          allowFontScaling={true}
+          blurOnSubmit={true}
+          contextMenuHidden={true}
+          flex={0.25}
+          keyboardType="numeric"
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          returnKeyType="done"
+          right={true}
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "borderRightColor": "#FFF",
+                "borderRightWidth": 0,
+                "flexBasis": 0,
+                "flexGrow": 0.25,
+                "flexShrink": 1,
+                "fontFamily": "Nunito_400Regular",
+                "fontSize": 16,
+                "paddingBottom": 10,
+                "paddingLeft": 5,
+                "paddingRight": 1,
+                "paddingTop": 10,
+                "textAlign": "right",
+                "width": 637.5,
+              },
+            ]
+          }
+          underlineColorAndroid="transparent"
+          value="20"
+        />
+        <Text
+          flex={0.1}
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "flexBasis": 0,
+                "flexGrow": 0.1,
+                "flexShrink": 1,
+                "fontFamily": "Nunito_400Regular",
+                "fontSize": 16,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+                "paddingRight": 5,
+              },
+            ]
+          }
+        >
+          %
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <RNCSlider
+        disabled={false}
+        enabled={true}
+        inverted={false}
+        maximumTrackTintColor="#EAEAEA"
+        maximumValue={50}
+        minimumTrackTintColor="#5386E4"
+        minimumValue={0}
+        onChange={[Function]}
+        onRNCSliderSlidingComplete={null}
+        onRNCSliderSlidingStart={null}
+        onRNCSliderValueChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        step={1}
+        style={
+          Array [
+            Object {
+              "height": 40,
+            },
+            Object {
+              "width": 675,
+            },
+          ]
+        }
+        thumbImage={
+          Object {
+            "__packager_asset": true,
+            "height": 1,
+            "scale": 1,
+            "uri": "uri",
+            "width": 1,
+          }
+        }
+        thumbTintColor="#5386E4"
+        value={20}
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <Text
+        flex={0.5}
+        style={
+          Array [
+            Object {
+              "flexBasis": 0,
+              "flexGrow": 0.5,
+              "flexShrink": 1,
+              "fontFamily": "Nunito_700Bold",
+              "fontSize": 16,
+            },
+          ]
+        }
+      >
+        Interest Rate
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "borderColor": "#C3C3C3",
+              "borderRadius": 5,
+              "borderStyle": "solid",
+              "borderWidth": 0.5,
+              "flexBasis": 0,
+              "flexDirection": "row",
+              "flexGrow": 0.6,
+              "flexShrink": 1,
+            },
+          ]
+        }
+      >
+        <TextInput
+          allowFontScaling={true}
+          blurOnSubmit={true}
+          contextMenuHidden={true}
+          flex={0.9}
+          keyboardType="numeric"
+          minLength={1}
+          onChangeText={[Function]}
+          rejectResponderTermination={true}
+          returnKeyType="done"
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "borderRightColor": "#FFF",
+                "borderRightWidth": 0,
+                "flexBasis": 0,
+                "flexGrow": 0.9,
+                "flexShrink": 1,
+                "fontFamily": "Nunito_400Regular",
+                "fontSize": 16,
+                "paddingBottom": 10,
+                "paddingLeft": 5,
+                "paddingRight": 1,
+                "paddingTop": 10,
+                "textAlign": "left",
+                "width": 637.5,
+              },
+            ]
+          }
+          underlineColorAndroid="transparent"
+          value="4"
+        />
+        <Text
+          flex={0.1}
+          style={
+            Array [
+              Object {
+                "alignSelf": "center",
+                "flexBasis": 0,
+                "flexGrow": 0.1,
+                "flexShrink": 1,
+                "fontFamily": "Nunito_400Regular",
+                "fontSize": 16,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
+                "paddingRight": 5,
+              },
+            ]
+          }
+        >
+          %
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignSelf": "center",
+            "paddingBottom": 15,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 15,
+          },
+        ]
+      }
+    >
+      <RNCSlider
+        disabled={false}
+        enabled={true}
+        inverted={false}
+        maximumTrackTintColor="#EAEAEA"
+        maximumValue={8}
+        minimumTrackTintColor="#5386E4"
+        minimumValue={1}
+        onChange={[Function]}
+        onRNCSliderSlidingComplete={null}
+        onRNCSliderSlidingStart={null}
+        onRNCSliderValueChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        step={0.01}
+        style={
+          Array [
+            Object {
+              "height": 40,
+            },
+            Object {
+              "width": 675,
+            },
+          ]
+        }
+        thumbImage={
+          Object {
+            "__packager_asset": true,
+            "height": 1,
+            "scale": 1,
+            "uri": "uri",
+            "width": 1,
+          }
+        }
+        thumbTintColor="#5386E4"
+        value={4}
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;
